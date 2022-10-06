@@ -1,0 +1,34 @@
+columnSuffix: aarlemkr
+contentColumnType: string
+fieldGroup: a795b4e9-3321-40aa-95a4-f1b6e91f5cc7 # Setup
+handle: textColor
+instructions: null
+name: 'Text Color'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Light
+        -
+          - value
+          - light
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Dark
+        -
+          - value
+          - dark
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

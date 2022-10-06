@@ -1,0 +1,17 @@
+currLabel: Orders
+customIcon: null
+enabled: true
+handle: orders
+icon: null
+layout: 1cb73877-292a-47d7-86bf-c9c99ea33685 # Default
+level: 2
+newWindow: false
+parent: 62da7693-58c8-4d84-9224-236722633b4e
+prevLabel: Orders
+prevLevel: 2
+prevParent: 62da7693-58c8-4d84-9224-236722633b4e
+prevUrl: commerce/orders
+sortOrder: 38
+subnavBehaviour: null
+type: plugin
+url: commerce/orders

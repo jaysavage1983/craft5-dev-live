@@ -1,0 +1,25 @@
+.diy-countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75px;
+}
+
+.diy-countdown__items {
+    display: flex;
+}
+
+.diy-countdown__item {
+    min-width: 75px;
+    text-align: center;
+}
+
+.diy-countdown__value,
+.diy-countdown__label {
+    display: block;
+}
+
+.diy-countdown__value {
+    font-size: 52px;
+    line-height: 1;
+}

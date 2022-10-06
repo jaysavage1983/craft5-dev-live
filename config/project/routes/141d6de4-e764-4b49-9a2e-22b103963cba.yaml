@@ -1,0 +1,17 @@
+siteUid: null
+sortOrder: 4
+template: /events/month
+uriParts:
+  - events/month/calendar/
+  -
+    - slug
+    - '[^\/]+'
+  - /
+  -
+    - year
+    - '\d{4}'
+  - /
+  -
+    - month
+    - '(?:0?[1-9]|1[012])'
+uriPattern: 'events/month/calendar/<slug:[^\/]+>/<year:\d{4}>/<month:(?:0?[1-9]|1[012])>'

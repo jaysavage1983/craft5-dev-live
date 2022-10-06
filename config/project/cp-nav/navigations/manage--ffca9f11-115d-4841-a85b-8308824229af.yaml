@@ -1,0 +1,17 @@
+currLabel: 'Manage Webhooks'
+customIcon: null
+enabled: true
+handle: manage
+icon: null
+layout: 1cb73877-292a-47d7-86bf-c9c99ea33685 # Default
+level: 2
+newWindow: false
+parent: a436b525-c360-4c50-a185-7d252178f194
+prevLabel: 'Manage Webhooks'
+prevLevel: 2
+prevParent: a436b525-c360-4c50-a185-7d252178f194
+prevUrl: webhooks
+sortOrder: 21
+subnavBehaviour: null
+type: plugin
+url: webhooks

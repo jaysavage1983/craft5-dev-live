@@ -1,0 +1,19 @@
+{% extends "_layout" %} {% set title = "News" %} {% block content %}
+<h1>News</h1>
+
+
+   {% for entry in craft.entries.section('news').limit(1) %}
+    {% set image = entry.featureImage.one() %}
+    <div class="card" style="width: 18rem;">
+  <img src="{{ image.getUrl() }}" class="card-img-top" alt="{{ entry.title }}">
+  <div class="card-body">
+    <h5 class="card-title">{{ entry.title }}
+    <p>Posted on {{ entry.postDate.format('F d, Y') }}</p>
+    </h5>
+    <p class="card-text">{{ entry.body }}</p>
+    <a href="{{ entry.url }}" class="btn btn-primary text-white">Read More</a>
+  </div>
+</div>
+
+{% endfor %}
+{% endblock %}

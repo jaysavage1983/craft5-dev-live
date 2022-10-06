@@ -1,0 +1,23 @@
+{% set query = craft.app.request.getParam('query') %}
+
+{% if query %}
+    {% set entries = craft.entries()
+        .search(query)
+        .status(null)
+        .limit(10)
+        .collect() %}
+
+    {% if entries|length %}
+        <table class="fullwidth">
+            {% for entry in entries %}
+                <tr>
+                    <td>
+                        <span class="status {{ entry.getStatus() }}"></span>
+                        <a href="{{ entry.getCpEditUrl() }}">{{ entry.title }}</a>
+                        <span class="light">{{ entry.getSection().name }}</span>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+{% endif %}

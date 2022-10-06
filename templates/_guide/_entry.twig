@@ -1,0 +1,74 @@
+{% block content %}
+
+<div class="bg-light p-5 rounded-lg m-8">
+  <h1 class="display-4">{{ entry.title }}</h1>
+  <p class="lead">{{ entry.body }}</p>
+  <hr class="my-4">
+  <p></p>
+  <a class="btn btn-primary btn-lg text-white" href="#" role="button">Learn more</a>
+</div>
+
+<span class="bg-red font-bold ml-3 px-2 py-0.5 rounded text-sm text-white uppercase">Live</span>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+    <h2>News
+      <svg class="button-arrow" width="14" height="10" viewBox="0 0 10 10" aria-hidden="true">
+	<g>
+		<path class="button-arrow__line" d="M0 5h12"></path>
+		<path class="button-arrow__tip" d="M1 1l4 4-4 4"></path>
+	</g>
+</svg>
+    </h2>
+    {% cache %}
+    {% for entry in craft.entries.section('news').limit(1) %}
+    {% set image = entry.featureImage.one() %}
+    <div class="card" style="width: 18rem;">
+  <img src="{{ image.getUrl() }}" class="card-img-top" alt="{{ entry.title }}">
+  <div class="card-body">
+    <h5 class="card-title">{{ entry.title }}</h5>
+    <p class="card-text">{{ entry.body }}</p>
+    <a href="{{ entry.url }}" class="btn btn-primary text-white">Read More</a>
+  </div>
+</div>
+{% endfor %}
+{% endcache %}
+    </div>
+    <div class="col">
+    <h2>From The Blog</h2>
+    {% cache %}
+    {% for entry in craft.entries.section('blog').limit(1) %}
+    {% set image = entry.featureImage.one() %}
+    <div class="card" style="width: 18rem;">
+  <img src="{{ image.getUrl() }}" class="card-img-top" alt="{{ entry.title }}">
+  <div class="card-body">
+    <h5 class="card-title">{{ entry.title }}</h5>
+    <p class="card-text">{{ entry.body }}</p>
+    <a href="{{ entry.url }}" class="btn btn-primary text-white">Read More</a>
+  </div>
+</div>
+{% endfor %}
+{% endcache %}
+    </div>
+    
+
+
+    <div class="col">
+    <h2>Upcoming Events</h2>
+    {% cache %}
+        {% for entry in craft.entries.section('events').limit(1) %}
+        {% set image = entry.featureImage.one() %}
+    <div class="card" style="width: 18rem;">
+  <img src="{{ image.getUrl() }}" class="card-img-top" alt="{{ entry.title }}">
+  <div class="card-body">
+    <h5 class="card-title">{{ entry.title }}</h5>
+    <p class="card-text">{{ entry.body }}</p>
+    <a href="{{ entry.url }}" class="btn btn-primary text-white">Read More</a>
+  </div>
+</div>
+{% endfor %}
+    {% endcache %}
+</div>
+
+{% endblock %}

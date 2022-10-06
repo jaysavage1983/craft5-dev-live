@@ -1,0 +1,9 @@
+baseUrl: null
+enabled: true
+handle: default
+hasUrls: false
+language: en-US
+name: 'Generic Church'
+primary: true
+siteGroup: 2ed96085-cb47-43d6-9089-2eafe5f86f87 # Church Online
+sortOrder: 1

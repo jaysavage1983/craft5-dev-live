@@ -1,0 +1,17 @@
+currLabel: Settings
+customIcon: null
+enabled: true
+handle: settings
+icon: settings
+layout: 1cb73877-292a-47d7-86bf-c9c99ea33685 # Default
+level: 1
+newWindow: false
+parent: null
+prevLabel: Settings
+prevLevel: 1
+prevParent: null
+prevUrl: settings
+sortOrder: 28
+subnavBehaviour: null
+type: craft
+url: settings

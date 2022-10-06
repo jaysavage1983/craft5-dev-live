@@ -1,0 +1,224 @@
+dateModified: 1665047560
+email:
+  fromEmail: jgreentreevin@gmail.com
+  fromName: JayGreentree
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    apiKey: 50903c8dd048c47bf54dab8c5e1232b9-8d821f0c-e2219fb7
+    domain: smtp.mailgun.org
+    endpoint: 'https://api.mailgun.net/v3/sandbox14bc18505ec04afebad66b67e2bf90d6.mailgun.org'
+  transportType: craft\mailgun\MailgunAdapter
+fs:
+  featureImage:
+    hasUrls: true
+    name: 'Feature Image'
+    settings:
+      path: '@webroot/assets/featureimage'
+    type: craft\fs\Local
+    url: /assets/featureimage/
+  logo:
+    hasUrls: true
+    name: Logo
+    settings:
+      path: '@webroot/assets/images/logos'
+    type: craft\fs\Local
+    url: /assets/images/logos/
+  profileImage:
+    hasUrls: true
+    name: 'Profile Image'
+    settings:
+      path: '@webroot/assets/users/{slug}'
+    type: craft\fs\Local
+    url: '/assets/users/{slug}/'
+meta:
+  __names__:
+    0ab48b00-c1f4-4bc3-a412-7139742d84c3: 'Feature Image' # Feature Image
+    1cb73877-292a-47d7-86bf-c9c99ea33685: Default # Default
+    2b68148f-bdb5-4b23-b66d-cdcb6c2838b1: Notes # Notes
+    2c663d27-e9cc-4aaa-8e17-ebf6b50b062f: 'Chat Duration' # Chat Duration
+    2ed96085-cb47-43d6-9089-2eafe5f86f87: 'Church Online' # Church Online
+    3b55866b-a7e6-4850-99a3-cf1797a5ece4: 'Next Timestamp' # Next Timestamp
+    3c0e66d6-aad5-4adb-979b-b692089c4042: Staff # Staff
+    3c028874-a03c-46b7-8a71-cdb22e840a99: youtubeid # youtubeid
+    3c348ca9-11eb-457e-baa5-546b3554b5fd: About # About
+    3f78ef20-a912-4935-970a-6e41405dc2cd: News # News
+    04afbbc6-4a13-4580-914c-ac14bc1a7b91: Notes # Notes
+    4c5db8b4-cb62-4005-b223-640e932ef612: 'Next Time' # Next Time
+    5d21f424-ac35-490a-b4b0-e452e28acc78: 'Profile Image' # Profile Image
+    5e2cec7e-bd83-44ba-bdfe-3f373e44a760: live # live
+    6a9589cc-4503-4739-be79-07c7a3f7c8db: 'Next Service Time' # Next Service Time
+    6be54ded-2b15-44bd-9fb0-4a190b2ffae9: Day # Day
+    7b1f1ba0-a8f2-4c39-b2eb-f9c4ea4fa09a: live # live
+    7d7d3026-976e-4b4a-a54e-cd327b7cffdd: About # About
+    7f01619b-3686-41db-9489-babb719d16f5: Prayer # Prayer
+    8ea56634-c251-491e-a4b1-838c3488527e: 'Sermon Notes' # Sermon Notes
+    8ff651db-f131-41a5-80d6-00ac212bae05: Bible # Bible
+    012a28a1-7ce0-4e0b-a86e-d87e61cc107a: Month # Month
+    021dbe12-f2c4-40df-a709-4647865b63b2: Year # Year
+    23ba9ffb-0721-413a-8480-35be929d4521: 'Review Questions' # Review Questions
+    39c4c36e-a9c7-4737-bbe8-d1070ccb22e0: Video # Video
+    42b2505a-fd49-4f4b-9242-1ca506e1cc8a: Subtitle # Subtitle
+    50a13ffd-3f29-4b62-b693-728d5b616450: Dummy # Dummy
+    68dea664-4568-4a80-94db-10268964fcb4: Duration # Duration
+    99df751f-04ad-486f-bdc9-5ac455f1e0eb: 'End Hour' # End Hour
+    268dfa48-13f3-4582-86c2-f3f041623159: New # New
+    273f2ad6-554b-4cbd-b78b-eb91e54a84ff: 'Generic Church' # Generic Church
+    339a2932-fced-4019-a378-93ae0aef4cfa: 'End Minute' # End Minute
+    387ebfc0-ddba-4b7c-ac46-e0856ca4e499: Default # Default
+    618ffb7e-bb61-43ed-87e7-1d42bdb05be9: 'Start Minute' # Start Minute
+    739aa8d8-3d03-448d-a64e-c3c96bfddccd: 'Next Day' # Next Day
+    762e7b93-b622-4dd3-a5a4-3de3d6bc5b76: breadcrumbs # breadcrumbs
+    813d0154-dbd0-44bb-810b-fd866eed45ed: 'Main Menu' # Main Menu
+    843d2e42-6c3a-4e3d-825f-42c47f8e2085: 'Part Number' # Part Number
+    4371dbc4-e7d1-4f29-98aa-7b42a8a53585: 'Service Content' # Service Content
+    8263faac-dc9a-4d9d-bbd6-e2c93d1a6579: Schedule # Schedule
+    53877b4f-7e25-425b-bdd0-d3269a768c06: Prayer # Prayer
+    164551b5-b3a5-4d4f-b3d9-0e2efc5af78b: Services # Services
+    3499579d-5255-452e-a33f-03d049a828f5: Common # Common
+    a795b4e9-3321-40aa-95a4-f1b6e91f5cc7: Setup # Setup
+    a7156aad-5d41-424a-b445-f790f5fbd137: Speaker # Speaker
+    a8422304-fb14-41f0-9b22-aa63d76a92da: 'Next Service Time' # Next Service Time
+    ac08a449-35cb-47be-b792-75d1de829c9b: Home # Home
+    b2494ec6-94d1-435d-aa69-656c4cb13e99: Chat # Chat
+    ba928432-081a-40a5-b0b8-a62dbb202a37: 'Video Source' # Video Source
+    bba60dc0-a15b-4044-a612-53234486cd81: 'Feature Image' # Feature Image
+    c8e987aa-18dc-468c-b708-377878fe673c: Logo # Logo
+    c9fbc9e2-90fe-4e01-8ae8-0b517fd35ce1: 'Start Hour' # Start Hour
+    c33e5c9e-f406-49cc-b62c-9ef525667a0b: 'Public Chat' # Public Chat
+    c35d1838-377a-45df-886c-69ac4e514ec0: Logo # Logo
+    c2478540-8562-4206-8886-4e2ce8fe2dac: 'End Day' # End Day
+    cb98765a-90e6-41a8-aca5-97d2b4428f7a: 'Background Color' # Background Color
+    d1bca1e4-fd3c-43bb-8a3b-e215b170d186: 'Text Color' # Text Color
+    d87aa3bb-08b2-48f3-8968-880fa30e7a67: live # live
+    d226e06d-b446-489a-949a-8c525fb68148: Home # Home
+    ddf530f0-771b-4fee-a222-56b0bd25335c: News # News
+    dec75073-e032-4fd0-9c5b-acd024d1a19c: 'Public Chat' # Public Chat
+    eb9db7b0-76b8-4385-bf65-e0e1e06c96fb: Hours # Hours
+    ed41f9d9-5586-4584-bfae-d16ac6814cc5: Body # Body
+    f7cbea1e-f701-462f-9f7c-f0abed98e800: Description # Description
+    f9347a8c-4ce8-4d91-b0e0-7cda1d5bf104: Minutes # Minutes
+    fb84ade9-aafa-4175-b787-48f864691350: api # api
+plugins:
+  cache-flag:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.2
+  calendar:
+    edition: pro
+    enabled: true
+    licenseKey: MM99PAJB0NAPOMWSDNZ1A0SF
+    schemaVersion: 4.0.0
+    settings:
+      allDay: false
+      authoredEventEditOnly: ''
+      defaultView: events
+      demoBannerDisabled: true
+      descriptionFieldHandle: null
+      eventDuration: 60
+      firstDayOfWeek: '-1'
+      guestAccess: null
+      locationFieldHandle: null
+      overlapThreshold: 5
+      pluginName: ''
+      quickCreateEnabled: '1'
+      showDisabledEvents: '1'
+      showMiniCal: '1'
+      timeFormat: auto
+      timeInterval: 30
+  commerce:
+    edition: pro
+    enabled: true
+    licenseKey: FA8A8MM6CZF4EH6RNE7OI0HP
+    schemaVersion: 4.1.1
+  cp-clearcache:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  cp-nav:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.11
+  date-range:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  diy-widget:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.1
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  embeddedassets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  entity-diagrams:
+    edition: standard
+    enabled: false
+    schemaVersion: 1.0.0
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.4.0
+  guide:
+    edition: lite
+    enabled: true
+    schemaVersion: 3.0.0
+  mailgun:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: TJKMJREXOV5E3L4A52GGDPIM
+    schemaVersion: 2.0.4
+    settings:
+      bypassProjectConfig: false
+      pluginName: Navigation
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  splashing-images:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.2.0
+    settings:
+      destination: '1'
+      folder: ''
+      pluginLabel: ''
+  sprig:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+  store-hours:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.2
+  webhooks:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.4.0
+  webperf:
+    edition: standard
+    enabled: false
+    licenseKey: BW6GG08Z9ARAKPA6YS4SUUSP
+    schemaVersion: 1.0.1
+  youtubeliveembed:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      isLive: true
+      youtubeChannelId: UCTIKg0f0UuTN9jxxuL-EnNA
+system:
+  edition: pro
+  live: true
+  name: 'Generic Church'
+  retryDuration: null
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles

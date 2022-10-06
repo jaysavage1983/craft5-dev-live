@@ -1,0 +1,17 @@
+currLabel: 'Unsplash Images'
+customIcon: null
+enabled: true
+handle: splashing-images
+icon: 'E:\Bitnami\wampstack\apache2\vhosts\htdocs_craft4\vendor\studioespresso\craft-splashingimages\src\icon-mask.svg'
+layout: 1cb73877-292a-47d7-86bf-c9c99ea33685 # Default
+level: 1
+newWindow: false
+parent: null
+prevLabel: 'Unsplash Images'
+prevLevel: 1
+prevParent: null
+prevUrl: splashing-images
+sortOrder: 18
+subnavBehaviour: null
+type: plugin
+url: splashing-images

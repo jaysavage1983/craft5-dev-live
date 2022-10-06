@@ -1,0 +1,54 @@
+field: 4371dbc4-e7d1-4f29-98aa-7b42a8a53585 # Service Content
+fieldLayouts:
+  1ba45ddc-4c39-4a19-a808-20f5b0b40258:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2b68148f-bdb5-4b23-b66d-cdcb6c2838b1 # Notes
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94fd3241-21c2-47aa-8a2a-a115cfef99a6
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 90f069c6-b65e-49f8-9cdc-99c371aee4e4
+        userCondition: null
+fields:
+  2b68148f-bdb5-4b23-b66d-cdcb6c2838b1: # Notes
+    columnSuffix: uksgrkjq
+    contentColumnType: text
+    fieldGroup: null
+    handle: notes
+    instructions: "Upload Sermon notes to share relevant scriptures, a teaching outline, key quotes or points, ways for attenders to take next steps, and any text that helps attenders engage with your online Service.\r\n\r\nNotes are specific to each Service and only visible during your Service."
+    name: Notes
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: notes
+name: Notes
+sortOrder: 5

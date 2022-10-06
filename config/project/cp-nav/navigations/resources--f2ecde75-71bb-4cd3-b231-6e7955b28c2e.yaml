@@ -1,0 +1,17 @@
+currLabel: Resources
+customIcon: null
+enabled: true
+handle: resources
+icon: null
+layout: 1cb73877-292a-47d7-86bf-c9c99ea33685 # Default
+level: 2
+newWindow: false
+parent: 735a5ae4-d0b4-40a1-b770-b82e1d4ff279
+prevLabel: Resources
+prevLevel: 2
+prevParent: 735a5ae4-d0b4-40a1-b770-b82e1d4ff279
+prevUrl: calendar/resources
+sortOrder: 12
+subnavBehaviour: null
+type: plugin
+url: calendar/resources

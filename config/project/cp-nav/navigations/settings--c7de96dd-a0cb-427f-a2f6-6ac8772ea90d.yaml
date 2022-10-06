@@ -1,0 +1,17 @@
+currLabel: Settings
+customIcon: null
+enabled: true
+handle: settings
+icon: null
+layout: 1cb73877-292a-47d7-86bf-c9c99ea33685 # Default
+level: 2
+newWindow: false
+parent: 735a5ae4-d0b4-40a1-b770-b82e1d4ff279
+prevLabel: Settings
+prevLevel: 2
+prevParent: 735a5ae4-d0b4-40a1-b770-b82e1d4ff279
+prevUrl: calendar/settings
+sortOrder: 11
+subnavBehaviour: null
+type: plugin
+url: calendar/settings

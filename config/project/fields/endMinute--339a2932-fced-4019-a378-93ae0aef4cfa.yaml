@@ -1,0 +1,20 @@
+columnSuffix: vkoihfua
+contentColumnType: integer(10)
+fieldGroup: fb84ade9-aafa-4175-b787-48f864691350 # api
+handle: endMinute
+instructions: null
+name: 'End Minute'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

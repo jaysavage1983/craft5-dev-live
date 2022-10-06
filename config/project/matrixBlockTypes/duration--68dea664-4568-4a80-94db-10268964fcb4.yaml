@@ -1,0 +1,80 @@
+field: 4371dbc4-e7d1-4f29-98aa-7b42a8a53585 # Service Content
+fieldLayouts:
+  afa29640-90f6-481b-9940-af9be80d22b3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: eb9db7b0-76b8-4385-bf65-e0e1e06c96fb # Hours
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c4df688-ab90-4616-93a5-bd09ca33602f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f9347a8c-4ce8-4d91-b0e0-7cda1d5bf104 # Minutes
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cbd92775-64be-4857-8a49-ff7fd1c2127f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b7d377bf-0e26-4e92-9e31-5dee2a3ff16a
+        userCondition: null
+fields:
+  eb9db7b0-76b8-4385-bf65-e0e1e06c96fb: # Hours
+    columnSuffix: eafxymfx
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: hours
+    instructions: null
+    name: Hours
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: 2
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+  f9347a8c-4ce8-4d91-b0e0-7cda1d5bf104: # Minutes
+    columnSuffix: avpdvngh
+    contentColumnType: integer(10)
+    fieldGroup: null
+    handle: minutes
+    instructions: null
+    name: Minutes
+    searchable: false
+    settings:
+      decimals: 0
+      defaultValue: null
+      max: null
+      min: 0
+      prefix: null
+      previewCurrency: null
+      previewFormat: decimal
+      size: null
+      suffix: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Number
+handle: duration
+name: Duration
+sortOrder: 1

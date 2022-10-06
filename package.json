@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "pubnub": "^7.2.0",
+    "tailwindcss": "^1.9.6"
+  }
+}

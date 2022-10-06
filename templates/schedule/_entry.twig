@@ -1,0 +1,15 @@
+
+<div class="panel panel-primary">
+  {% for day in entry.schedule %}
+    {% if day.isBlank %}
+        
+      {% else %}
+
+
+  <div class="panel-heading">{{ day.name }}</div>
+
+  
+  <div class="panel-body">{{ day.open|time }}</div>
+  {% endif %}
+  {% endfor %}
+</div>

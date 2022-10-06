@@ -1,0 +1,17 @@
+currLabel: Webhooks
+customIcon: null
+enabled: true
+handle: webhooks
+icon: 'E:\Bitnami\wampstack\apache2\vhosts\htdocs_craft4\vendor\craftcms\webhooks\src\icon-mask.svg'
+layout: 1cb73877-292a-47d7-86bf-c9c99ea33685 # Default
+level: 1
+newWindow: false
+parent: null
+prevLabel: Webhooks
+prevLevel: 1
+prevParent: null
+prevUrl: webhooks
+sortOrder: 20
+subnavBehaviour: null
+type: plugin
+url: webhooks

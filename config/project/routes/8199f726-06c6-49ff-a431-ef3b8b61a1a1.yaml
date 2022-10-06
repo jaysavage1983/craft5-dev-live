@@ -1,0 +1,9 @@
+siteUid: null
+sortOrder: 16
+template: /events/edit
+uriParts:
+  - events/edit/event/
+  -
+    - number
+    - \d+
+uriPattern: 'events/edit/event/<number:\d+>'

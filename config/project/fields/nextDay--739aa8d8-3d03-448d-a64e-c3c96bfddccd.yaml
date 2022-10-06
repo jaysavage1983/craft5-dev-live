@@ -1,0 +1,17 @@
+columnSuffix: rsffnypv
+contentColumnType: datetime
+fieldGroup: fb84ade9-aafa-4175-b787-48f864691350 # api
+handle: nextDay
+instructions: null
+name: 'Next Day'
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: 30
+  showDate: true
+  showTime: false
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

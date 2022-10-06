@@ -1,0 +1,27 @@
+columnSuffix: pkylmsfo
+contentColumnType: text
+fieldGroup: d87aa3bb-08b2-48f3-8968-880fa30e7a67 # live
+handle: reviewQuestions
+instructions: null
+name: 'Review Questions'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

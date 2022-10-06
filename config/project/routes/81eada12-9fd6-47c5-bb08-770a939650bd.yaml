@@ -1,0 +1,9 @@
+siteUid: null
+sortOrder: 20
+template: /events/resources/event_data
+uriParts:
+  - events/resources/event_data/
+  -
+    - number
+    - \d+
+uriPattern: 'events/resources/event_data/<number:\d+>'

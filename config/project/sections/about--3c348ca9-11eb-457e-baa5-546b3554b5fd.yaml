@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: about
+name: About
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  273f2ad6-554b-4cbd-b78b-eb91e54a84ff: # Generic Church
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/about
+    uriFormat: about
+type: single

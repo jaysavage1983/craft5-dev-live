@@ -1,0 +1,240 @@
+.message-video {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.message-card {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; 
+    border-radius: 5px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-buttons-mobile {
+    display: none;
+}
+
+.message-details {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.message-details h1 {
+    margin: 0;
+}
+
+.message-details-title ul {
+    margin: 20px 0;
+}
+
+.message-other-messages {
+    margin-top: 30px;
+}
+
+.message-sidebar {
+    width: 40%;
+}
+
+.message-sidebar .btn-group {
+    margin-bottom: 30px;
+}
+
+/* Tablet Styling */
+@media screen and (max-width: 768px) {
+    .message-video {
+        width: 75%;
+    }
+    
+    .message-buttons-desktop a {
+        font-size: 14px;
+    }
+
+    #section-a-bg {
+        padding-bottom: 20px;
+    }
+
+    .message-card {
+        margin: 0;
+    }
+}
+/* Mobile Styling */
+@media screen and (max-width: 500px) {
+    #zone-feature {
+        margin: 0
+    }
+
+    .main-feature {
+        padding-top: 60px;
+    }
+
+    .message-card {
+        flex-direction: column;
+        background-color: unset;
+        box-shadow: unset; 
+        border-radius: unset;
+    }
+
+    .message-buttons-mobile {
+        display: table;
+        margin-bottom: 20px;
+    }
+
+    .message-buttons-mobile a {
+        font-size: 14px;
+    }
+
+    .message-buttons-desktop {
+        display: none;
+    }
+
+    .message-details {
+        width: 100%;
+    }
+
+    .message-other-messages {
+        margin-top: unset;
+    }
+
+    .message-sidebar {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* dont hate me */
+@media screen and (max-width: 375px) {
+    .message-video {
+        width: 85%;
+    }
+}
+
+/* Small phones */
+@media screen and (max-width: 320px) {
+    .message-video {
+        width: 100%;
+    }
+}
+
+ /* Share Section */
+ .share-modal-header h4 {
+    font-family: akrobat;
+    padding: 0;
+    color: rgb(85, 85, 85);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.item-share {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.item-share p {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 10px 10px 0 0;
+    color: rgb(85, 85, 85);
+}
+
+.item-share p {
+    font-size: 18px;
+    font-family: akrobat;
+}
+
+.item-share .mdi-launch {
+    font-size: 29px;
+}
+
+#shareButton {
+    cursor: pointer;
+    color: #490b4d;
+}
+
+/* Modals */
+.share-modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    -webkit-animation-name: fadeIn; 
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+
+/* Share Modal Content */
+.share-modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.share-modal-header {
+    padding: 9px 16px;
+    background-color: #FFFFFF;
+    color: white;
+}
+
+.share-modal-body {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin: 0 40%;
+}
+
+.share-sms, .share-email, .share-facebook, .share-twitter {
+    font-size: 32px;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+/* End Share Section */
+
+
+/* Tablet Styling */
+@media screen and (max-width: 760px){
+    .share-modal-body {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 30px;
+        margin: unset;
+        width: 100%;
+    }
+}

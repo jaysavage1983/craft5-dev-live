@@ -1,0 +1,16 @@
+{% set endDate = now|date_modify('2022/10/5 18:00') %} {% set endHtml %}
+<h2 style="font-size: 30px">🍸</h2>
+{% endset %}
+
+<div class="diy-countdown">
+    <ul class="diy-countdown__items">
+        {% for item in ['Days', 'Hours', 'Minutes', 'Seconds'] %}
+        <li class="diy-countdown__item {{ item|lower }}">
+            <span class="diy-countdown__value"></span>
+            <span class="diy-countdown__lable light">{{ item|t('site') }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% js %} new Craft.DiyWidget.Countdown({{ { widgetId: widget.id, timeRemaining: endDate|date('U') - now|date('U'), endHtml: endHtml, }|json_encode|raw }}); {% endjs %}
