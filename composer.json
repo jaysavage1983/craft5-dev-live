@@ -13,7 +13,7 @@
     "mmikkel/cp-clearcache": "1.3.1",
     "nystudio107/craft-webperf": "4.0.2",
     "nystudio107/craft-youtubeliveembed": "4.0.2",
-    "pubnub/pubnub": "^5.1",
+    "pubnub/pubnub": "^7.4.0",
     "putyourlightson/craft-sprig": "2.14.1",
     "solspace/craft-calendar": "5.0.17",
     "spicyweb/craft-embedded-assets": "4.2.3",
