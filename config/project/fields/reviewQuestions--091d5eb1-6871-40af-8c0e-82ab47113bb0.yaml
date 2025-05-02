@@ -1,0 +1,19 @@
+columnSuffix: xtmbbbaz
+contentColumnType: text
+fieldGroup: 09e415e9-8220-4857-8370-68e7b9f632a2 # Live
+handle: reviewQuestions
+instructions: null
+name: 'Review Questions'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: true
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

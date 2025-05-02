@@ -1,0 +1,19 @@
+columnSuffix: cavddaoa
+contentColumnType: text
+fieldGroup: 5cc8986c-b0b5-40cf-9f0d-786d6e22864f # Common
+handle: youtubeid
+instructions: null
+name: 'Youtube ID'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

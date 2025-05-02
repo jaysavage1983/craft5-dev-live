@@ -1,0 +1,22 @@
+allowRepeatingEvents: true
+color: '#B9DDD2'
+description: 'The default calendar'
+descriptionFieldHandle: null
+fieldLayout: null
+handle: default
+hasTitleField: true
+icsHash: null
+icsTimezone: floating
+locationFieldHandle: null
+name: Default
+siteSettings:
+  d3a92cdc-3803-4a2f-8e49-527bc8f0371b:
+    enabledByDefault: true
+    hasUrls: null
+    siteId: 97513086-c063-4780-bd7b-a0eaf8cf2029 # JayGreentree
+    template: null
+    uriFormat: null
+titleFormat: null
+titleLabel: Title
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

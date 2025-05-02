@@ -260,7 +260,7 @@ ul.nav-justified {
 /* jQuery Countdown styles 2.0.0. */
 
 .countdown-block {
-    display: none;
+    
     width: 100%;
     background-color: #444444;
     color: white;
@@ -293,7 +293,9 @@ ul.nav-justified {
     direction: rtl;
 }
 
-.countdown-holding span {}
+.countdown-holding span {
+    
+}
 
 .countdown-row {
     clear: both;
@@ -399,3 +401,27 @@ ul.nav-justified {
 
 
 /* Live Page */
+
+                .live {
+                    background-color: #FF350C;
+                    color: white;
+                }
+                .live .icon {
+                    color: white;
+                }
+                .pulsate {
+                    -webkit-animation: pulsate 3s ease-out;
+                    -webkit-animation-iteration-count: infinite;
+                    opacity: 0.5;
+                }
+                @-webkit-keyframes pulsate {
+                    0% {
+                        opacity: 0.5;
+                    }
+                    50% {
+                        opacity: 1.0;
+                    }
+                    100% {
+                        opacity: 0.5;
+                    }
+                }

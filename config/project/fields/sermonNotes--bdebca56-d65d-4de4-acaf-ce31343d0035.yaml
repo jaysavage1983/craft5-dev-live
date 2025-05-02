@@ -1,0 +1,25 @@
+columnSuffix: lknzutrk
+contentColumnType: text
+fieldGroup: 09e415e9-8220-4857-8370-68e7b9f632a2 # Live
+handle: sermonNotes
+instructions: null
+name: 'Sermon Notes'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  characterLimit: null
+  ckeConfig: af64aa48-d74e-415c-9fbd-a88588c6e099 # Simple
+  columnType: text
+  defaultTransform: null
+  purifierConfig: null
+  purifyHtml: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: true
+  sourceEditingGroups:
+    - __ADMINS__
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

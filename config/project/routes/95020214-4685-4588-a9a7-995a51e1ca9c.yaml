@@ -1,9 +1,0 @@
-siteUid: null
-sortOrder: 15
-template: /events/export
-uriParts:
-  - events/export/event/
-  -
-    - number
-    - \d+
-uriPattern: 'events/export/event/<number:\d+>'

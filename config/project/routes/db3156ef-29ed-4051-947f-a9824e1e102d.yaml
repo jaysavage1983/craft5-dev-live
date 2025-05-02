@@ -1,6 +1,0 @@
-siteUid: null
-sortOrder: 17
-template: /events/edit
-uriParts:
-  - events/edit/event/new
-uriPattern: events/edit/event/new

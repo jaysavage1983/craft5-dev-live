@@ -1,9 +1,0 @@
-siteUid: null
-sortOrder: 3
-template: /events/month
-uriParts:
-  - events/month/calendar/
-  -
-    - slug
-    - '[^\/]+'
-uriPattern: 'events/month/calendar/<slug:[^\/]+>'

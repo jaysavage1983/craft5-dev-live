@@ -1,0 +1,14 @@
+columnSuffix: qrrsboih
+contentColumnType: string(255)
+fieldGroup: 09e415e9-8220-4857-8370-68e7b9f632a2 # Live
+handle: bible
+instructions: null
+name: Bible
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

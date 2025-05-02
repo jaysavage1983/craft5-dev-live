@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pages
+name: Pages
+propagationMethod: all
+siteSettings:
+  97513086-c063-4780-bd7b-a0eaf8cf2029: # JayGreentree
+    enabledByDefault: true
+    hasUrls: true
+    template: _singles/about.twig
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: null
+  uid: f26f1807-604c-4aab-a1a1-532b6c3c2f86
+type: structure

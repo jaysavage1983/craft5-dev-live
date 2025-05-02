@@ -1,9 +1,0 @@
-siteUid: null
-sortOrder: 6
-template: /events/week
-uriParts:
-  - events/week/calendar/
-  -
-    - slug
-    - '[^\/]+'
-uriPattern: 'events/week/calendar/<slug:[^\/]+>'

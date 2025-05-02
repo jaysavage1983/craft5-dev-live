@@ -1,6 +1,7 @@
 {
   "require": {
     "carlcs/craft-diywidget": "3.0.0",
+    "craftcms/ckeditor": "^3.13.0",
     "craftcms/cms": "4.15.2",
     "craftcms/commerce": "4.8.3",
     "craftcms/element-api": "4.2.0",
@@ -14,8 +15,8 @@
     "nystudio107/craft-webperf": "4.0.2",
     "nystudio107/craft-youtubeliveembed": "4.0.2",
     "pubnub/pubnub": "^7.4.0",
-    "putyourlightson/craft-sprig": "2.14.1",
-    "solspace/craft-calendar": "5.0.17",
+    "putyourlightson/craft-sprig": "^2.14.1",
+    "solspace/craft-calendar": "^5.0.17",
     "spicyweb/craft-embedded-assets": "4.2.3",
     "springworks/entity-diagrams": "2.0.2",
     "studioespresso/craft-date-range": "3.0.1",
