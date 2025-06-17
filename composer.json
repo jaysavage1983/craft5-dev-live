@@ -2,7 +2,7 @@
   "require": {
     "carlcs/craft-diywidget": "3.0.0",
     "craftcms/ckeditor": "^3.13.0",
-    "craftcms/cms": "4.15.2",
+    "craftcms/cms": "4.15.3",
     "craftcms/commerce": "4.8.3",
     "craftcms/element-api": "4.2.0",
     "craftcms/feed-me": "5.11.0",
