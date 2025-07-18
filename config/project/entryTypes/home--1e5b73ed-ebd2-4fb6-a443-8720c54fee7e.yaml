@@ -37,7 +37,6 @@ fieldLayouts:
 handle: home
 hasTitleField: false
 name: Home
-section: 79d9b187-d156-4a2f-9f2a-4eed22d993d2 # Home
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

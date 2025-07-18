@@ -1,7 +1,20 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  -
+    uid: 1e5b73ed-ebd2-4fb6-a443-8720c54fee7e # Home
 handle: home
+maxAuthors: 1
 name: Home
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
   97513086-c063-4780-bd7b-a0eaf8cf2029: # JayGreentree

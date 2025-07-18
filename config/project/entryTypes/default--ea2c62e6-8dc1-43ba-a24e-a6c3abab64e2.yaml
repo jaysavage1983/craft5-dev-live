@@ -37,7 +37,6 @@ fieldLayouts:
 handle: default
 hasTitleField: true
 name: Default
-section: 45e3227f-14f8-476b-a14e-d77f3a380056 # Pages
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

@@ -37,7 +37,6 @@ fieldLayouts:
 handle: live
 hasTitleField: false
 name: Live
-section: 47dc5f4b-4fac-4cc7-b93d-3f17aa3ba30f # Live
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

@@ -1,4 +1,4 @@
-dateModified: 1746196873
+dateModified: 1752854633
 email:
   fromEmail: jgreentreevin@gmail.com
   fromName: JayGreentree
@@ -8,14 +8,11 @@ meta:
     1e5b73ed-ebd2-4fb6-a443-8720c54fee7e: Home # Home
     2e598b09-e18e-4b05-b845-f6c05554b0ec: Live # Live
     3ecaa8ed-af49-4c58-bb01-da9cfe44eeaf: Bible # Bible
-    5cc8986c-b0b5-40cf-9f0d-786d6e22864f: Common # Common
-    09e415e9-8220-4857-8370-68e7b9f632a2: Live # Live
     45e3227f-14f8-476b-a14e-d77f3a380056: Pages # Pages
     47dc5f4b-4fac-4cc7-b93d-3f17aa3ba30f: Live # Live
     79d9b187-d156-4a2f-9f2a-4eed22d993d2: Home # Home
     091d5eb1-6871-40af-8c0e-82ab47113bb0: 'Review Questions' # Review Questions
     4690f64a-2eac-4599-abd5-b90d858ba2e2: Schedule # Schedule
-    6574ff9c-e0a1-43cf-a233-e5f44ba0fef6: Default # Default
     97513086-c063-4780-bd7b-a0eaf8cf2029: JayGreentree # JayGreentree
     af64aa48-d74e-415c-9fbd-a88588c6e099: Simple # Simple
     b68a0ebe-81eb-4eec-9a3f-a295263eb014: Body # Body
@@ -24,19 +21,43 @@ meta:
     d29a5c62-ef28-442e-8645-52fa8e4f339d: 'Youtube ID' # Youtube ID
     ea2c62e6-8dc1-43ba-a24e-a6c3abab64e2: Default # Default
 plugins:
-  calendar:
-    edition: pro
-    enabled: true
-    licenseKey: 1KH804F4WSNEEXUIQQFWO4PT
-    schemaVersion: 5.0.1
   ckeditor:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  cp-clearcache:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  diy-widget:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.1
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  embeddedassets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: KRHOLAOAR39TH2K457YPRJK8
+    schemaVersion: 2.1.0
+  splashing-images:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.2.0
   sprig:
     edition: standard
     enabled: true
     schemaVersion: 1.0.1
+  store-hours:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.2
   youtubeliveembed:
     edition: standard
     enabled: true
@@ -49,7 +70,7 @@ system:
   live: true
   name: JayGreentree
   retryDuration: null
-  schemaVersion: 4.15.0.0
+  schemaVersion: 5.8.0.3
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

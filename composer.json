@@ -1,30 +1,18 @@
 {
   "require": {
-    "carlcs/craft-diywidget": "3.0.0",
-    "craftcms/ckeditor": "^3.13.0",
-    "craftcms/cms": "4.15.3",
-    "craftcms/commerce": "4.8.3",
+    "carlcs/craft-diywidget": "4.1.1",
+    "craftcms/ckeditor": "^4.9.0",
+    "craftcms/cms": "5.8.7",
     "craftcms/element-api": "4.2.0",
-    "craftcms/feed-me": "5.11.0",
-    "craftcms/mailgun": "3.1.0",
-    "craftcms/redactor": "3.1.0",
-    "craftcms/store-hours": "3.1.0",
-    "craftcms/webhooks": "3.1.0",
-    "mmikkel/cache-flag": "1.4.1",
-    "mmikkel/cp-clearcache": "1.3.1",
-    "nystudio107/craft-webperf": "4.0.2",
-    "nystudio107/craft-youtubeliveembed": "4.0.2",
+    "craftcms/store-hours": "4.2.0",
+    "mmikkel/cp-clearcache": "2.0.1",
+    "nystudio107/craft-youtubeliveembed": "5.0.0",
     "pubnub/pubnub": "^7.4.0",
-    "putyourlightson/craft-sprig": "^2.14.1",
-    "solspace/craft-calendar": "^5.0.17",
-    "spicyweb/craft-embedded-assets": "4.2.3",
-    "springworks/entity-diagrams": "2.0.2",
-    "studioespresso/craft-date-range": "3.0.1",
-    "studioespresso/craft-splashingimages": "3.0.2",
-    "verbb/cp-nav": "4.0.12",
-    "verbb/navigation": "2.1.2",
-    "vlucas/phpdotenv": "^5.4.0",
-    "wbrowar/guide": "3.2.3"
+    "putyourlightson/craft-sprig": "^3.6.1",
+    "spicyweb/craft-embedded-assets": "5.4.3",
+    "studioespresso/craft-splashingimages": "5.0.4",
+    "verbb/navigation": "3.0.10",
+    "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"
@@ -42,7 +30,7 @@
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "8.0.2"
+      "php": "8.3.6"
     }
   },
   "scripts": {
