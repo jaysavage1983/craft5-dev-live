@@ -2,7 +2,7 @@
   "require": {
     "carlcs/craft-diywidget": "4.1.1",
     "craftcms/ckeditor": "^4.9.0",
-    "craftcms/cms": "5.8.7",
+    "craftcms/cms": "5.8.8",
     "craftcms/element-api": "4.2.0",
     "craftcms/store-hours": "4.2.0",
     "mmikkel/cp-clearcache": "2.0.1",
