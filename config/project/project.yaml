@@ -1,4 +1,4 @@
-dateModified: 1752855147
+dateModified: 1752907314
 email:
   fromEmail: jgreentreevin@gmail.com
   fromName: JayGreentree
@@ -41,6 +41,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  ignition:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   navigation:
     edition: standard
     enabled: true
@@ -58,6 +62,11 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.2
+  timeloop:
+    edition: standard
+    enabled: true
+    licenseKey: FZSUF5L2IPC8XXJUMYN8CMZV
+    schemaVersion: 1.0.0
   youtubeliveembed:
     edition: standard
     enabled: true

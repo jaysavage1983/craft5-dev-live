@@ -1,22 +1,11 @@
 columnSuffix: null
-contentColumnType: string
 handle: schedule
 instructions: null
 name: Schedule
 searchable: false
 settings:
-  allowSelfRelations: true
-  branchLimit: null
-  localizeRelations: false
-  maintainHierarchy: false
-  maxRelations: null
-  minRelations: null
-  selectionLabel: null
-  showSiteMenu: false
-  sources: '*'
-  targetSiteId: null
-  validateRelatedElements: false
-  viewMode: null
+  showTime: 1
+  timeloopRequired: true
 translationKeyFormat: null
-translationMethod: site
-type: Solspace\Calendar\FieldTypes\EventFieldType
+translationMethod: none
+type: craftpulse\timeloop\fields\TimeloopField

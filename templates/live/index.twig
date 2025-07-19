@@ -2,13 +2,13 @@
 {% block content %}
 <link href="/assets/css/site.css" rel="stylesheet" type="text/css" media="screen">
 {% css %}
-/* Style the tab */
+
 .tabs {
 overflow: hidden;
 border: 1px solid #ccc;
 background-color: #f1f1f1;
 }
-/* Style the buttons that are used to open the tab content */
+
 .tabs button {
 background-color: inherit;
 float: left;
@@ -18,19 +18,21 @@ cursor: pointer;
 padding: 14px 16px;
 transition: 0.3s;
 }
-/* Change background color of buttons on hover */
+
 .tabs button:hover {
 background-color: #ddd;
 }
-/* Create an active/current tablink class */
+
 .tabs button.active {
 background-color: #ccc;
 }
-/* Style the tab content */
+
 .tab-content {
 padding: 6px 12px;
 border: 1px solid #ccc;
 border-top: none;
+width: 100%;
+Height: 80%;
 }
 {% endcss %}
 {% set pageTitle = "Live" %}
@@ -38,18 +40,18 @@ border-top: none;
 {% if craft.youtubelive.isLive() %}
 <script>
     var live_streaming = true;
-var need_countdown = false;
+    var need_countdown = false;
 </script>
 {% else %}
 <script>
     var live_streaming = false;
-var need_countdown = true;
+    var need_countdown = true;
 </script>
 {% endif %}
 <hr />
-<hr />
+
 <div class="container mg-t-lg mg-b-lg serif" id="live-page">
-    <div class="row mg-t-xs">
+    <div class="row mg-t-xs no-gutter">
         <div class="col-md-12 col-lg-7" id="section-video">
             <div class="video-holder" id="video-holder">
                 <div class="fluid-width-video-wrapper">
@@ -72,7 +74,9 @@ var need_countdown = true;
                 </div>
                 <div class="clearfix"></div>
             </div>
-            <div class="takeaway-block " id="takeaway-block"></div>
+            <div class="takeaway-block " id="takeaway-block">
+                {{ entry.sermonNotes }}
+            </div>
             <div class="live-sermon-info mg-t-md ">
                 <div class="pull-right hidden-xs hidden-sm hidden-md mg-b-sm"><a href="javascript:void(0);" class=" mg-r-sm2" id="expand"><i class="fa-lg  icon-maximize-4"></i></a>
                     <a href="javascript:void(0);" class="size-control-disabled" id="contract"><i class="fa-lg icon-minimize-1"></i></a>
@@ -116,7 +120,7 @@ var need_countdown = true;
                     </div>
                 </div>
                 <div class="tab-pane fade" id="pills-schedule" role="tabpanel" aria-labelledby="pills-schedule-tab" tabindex="0">
-                    {{ entry.schedule }}
+                        {{ entry.schedule.loopStartDate | date('Y-m-d\\TH:i:sP') }}
                 </div>
                 <div class="tab-pane fade" id="pills-extra" role="tabpanel" aria-labelledby="pills-extra-tab" tabindex="0">
                 </div>
@@ -144,7 +148,7 @@ var need_countdown = true;
                 </div>
         </div>
     </div>
-    <div class="row mg-t-md" style="display: none;">
+    <div class="row mg-t-md">
         <div class="col-sm-4 text-center mg-b-md">
             <div class="icon-heart fa-3x teal mg-b-md"></div>
             <p style="padding:0px 16px;">Give to Generic Church and take part in helping us reach every man, woman and child with the Gospel of Jesus Christ.<br><strong>Text any amount to 716.333.5511</strong></p>
@@ -161,12 +165,12 @@ var need_countdown = true;
             <a href="/locations/" target="_blank" class="btn btn-left btn-default"><i class="icon-right-4"></i> Find A Location</a>
         </div>
     </div>
-    <div class="row">
+    <!--div class="row">
         <div class="col-md-12 text-center text-muted mg-t-sm">
             <span class="mg-b-xs"><strong><a class="mg-l-xs  inline-popup-link" href="#techsupport-Modal" data-toggle="modal" data-target="#contact-modal">Having trouble viewing this?</a></strong></span>
             <div class="visible-xs"><br></div><span class="mg-b-xs mg-l-md"><strong><a class=" inline-popup-link" href="#prayer-Modal" data-toggle="modal" data-target="#prayer-Modal">Need prayer?</a></strong></span>
         </div>
-    </div>
+    </div-->
 </div>
 <script src="/assets/ckeditor/ckeditor.js"></script>
 <script src="/assets/ckeditor/samples/js/sample.js"></script>

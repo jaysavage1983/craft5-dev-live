@@ -5,6 +5,7 @@
     "craftcms/cms": "5.8.8",
     "craftcms/element-api": "4.2.0",
     "craftcms/store-hours": "4.2.0",
+    "craftpulse/craft-timeloop": "5.0.0-beta.3",
     "mmikkel/cp-clearcache": "2.0.1",
     "nystudio107/craft-youtubeliveembed": "5.0.0",
     "pubnub/pubnub": "^7.4.0",
@@ -12,7 +13,8 @@
     "spicyweb/craft-embedded-assets": "5.4.3",
     "studioespresso/craft-splashingimages": "5.0.4",
     "verbb/navigation": "3.0.10",
-    "vlucas/phpdotenv": "^5.4.0"
+    "vlucas/phpdotenv": "^5.4.0",
+    "webrgp/craft-ignition": "^1.0"
   },
   "require-dev": {
     "yiisoft/yii2-shell": "^2.0.3"

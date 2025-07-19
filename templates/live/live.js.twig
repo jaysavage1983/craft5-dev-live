@@ -741,9 +741,9 @@ var server_time;
 var live_streaming = window.live_streaming;
 var need_countdown = window.need_countdown;
 var setCountDownDuringLiveEvent;
-var end_service_hours = 19;
-var end_service_minutes = 45;
-var end_service_day = 0;
+var end_service_hours = "{{ entry.schedule.loopStartDate | date('H') }}";
+var end_service_minutes = "{{ entry.schedule.loopStartDate | date('i') }}";
+var end_service_day = "{{ entry.schedule.loopStartDate | date('w') }}";
 
 function grabServerTime() {
     var time = null;

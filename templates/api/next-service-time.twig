@@ -1,1 +1,14 @@
-{"nextTime":"{{ entry.nextTime }}","nextDay":"{{ entry.nextDay|date('F d, Y') }}","year":"{{ entry.year }}","month":"{{ entry.month }}","day":"{{ entry.day }}","start_hour":"{{ entry.startHour }}","start_minute":"{{ entry.startMinute }}","end_day":"{{ entry.endDay }}","end_hour":"{{ entry.endHour }}","end_minute":"{{ entry.endMinute }}"}
+{% for entry in craft.entries.section('live') %}
+{
+	"nextTime":"{{ entry.schedule.loopStartDate | date('h:iA l') }}",
+	"nextDay":"{{ entry.schedule.loopStartDate | date('F d, Y') }}",
+	"year":"{{ entry.schedule.loopStartDate | date('Y') }}",
+	"month":"{{ entry.schedule.loopStartDate | date('m') }}",
+	"day":"{{ entry.schedule.loopStartDate | date('d') }}",
+	"start_hour":"{{ entry.schedule.loopStartDate | date('H') }}",
+	"start_minute":"{{ entry.schedule.loopStartDate | date('i') }}",
+	"end_day":"{{ entry.schedule.loopEndDate | date('w') }}",
+	"end_hour":"{{ entry.schedule.loopEndDate | date('H') }}",
+	"end_minute":"{{ entry.schedule.loopEndDate | date('i') }}"
+}
+{% endfor %}
